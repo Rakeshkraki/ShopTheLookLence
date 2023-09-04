@@ -1,0 +1,21 @@
+Hotels Table
+
+hotel_id (Primary Key)
+hotel_name
+Other hotel-related information (e.g., location, contact details, etc.)
+
+
+Menus Table
+
+menu_id (Primary Key)
+hotel_id (Foreign Key referencing hotel_id in the Hotels Table)
+menu_name
+Other menu-related information (e.g., type of cuisine, price range, etc.)
+
+
+Food Items Table
+
+food_item_id (Primary Key)
+food_item_name
+menu_id (Foreign Key referencing menu_id in the Menus Table)
+Other food item-related information (e.g., price, description, etc.)
